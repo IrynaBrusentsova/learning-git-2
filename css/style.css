@@ -2,6 +2,7 @@
 ::after {
     box-sizing: border-box;
 }
+
 body {
     font-family: Ubuntu, Arial, sans-serif;
     margin: 0;
@@ -12,4 +13,16 @@ body {
     max-width: 1140px;
     margin: 0 auto;
     padding: 15px;
+    text-align: center;
+
+}
+
+h1,
+h2 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+section {
+    margin: 50px 0;
 }
