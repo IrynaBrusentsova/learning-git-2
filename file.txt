@@ -1,0 +1,15 @@
+npm init -y
+npm i html-validate --sev -dev
+
+1.Створила папку .htmlvalidate.json (командою touch .htmlvalidate.json)
+2.В цю папку помістила код 
+"extends": [
+    "html-validate:recommended"
+  ],
+
+  "rules": {
+    "close-order": "error",
+    "void": ["warn", {"style": "omit"}]
+  }
+}
+3. Дала команду html-validate index.html, яка перевірила відповідний файл на помилки.
